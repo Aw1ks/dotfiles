@@ -30,14 +30,21 @@ echo "$NEXT_THEME" > "$CACHE_FILE"
 
 # WALL
 if [ -n "$WALLPAPER" ] && [ -f "$WALLPAPER" ]; then
+    CURRENT_DISPLAY="${WAYLAND_DISPLAY:-wayland-1}"
+
+    if ! pgrep -x "awww-daemon" > /dev/null; then
+        awww-daemon --namespace "$CURRENT_DISPLAY" > /dev/null 2>&1 &
+        sleep 0.4
+    fi
+
     CURSOR_POS=$(hyprctl cursorpos | tr -d '[:space:]')
     
-    swww img "$WALLPAPER" \
+    awww img --namespace "$CURRENT_DISPLAY" "$WALLPAPER" \
         --transition-type grow \
         --transition-pos "$CURSOR_POS" \
         --transition-duration 0.6 \
         --transition-bezier .42,0,.58,1 \
-        --invert-y
+        --invert-y > /dev/null 2>&1
 fi
 
 
