@@ -74,7 +74,7 @@ chezmoi apply
 If you are deploying a system from scratch and want to apply all settings instantly with one command:
 
 ```bash
-chezmoi init --apply --repo-url https://github.com/<ваш-репозиторий>
+chezmoi init --apply --repo-url https://github.com/Aw1ks/dotfiles
 ```
 
 ### Manual installation (if necessary)
