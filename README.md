@@ -86,6 +86,7 @@ If you want to copy the configuration files manually, the dot_config folder corr
 ## 📁 Repository structure
 
 The project is organized according to chezmoi standards. Below is a directory tree describing the target components and new additions:
+```text
 ├── dot_config/                # Analogue of the `~/.config/` directory
 │   ├── fish/                  # Fish Shell Configuration
 │   ├── hypr/                  # Hyprland Wayland Composer Settings
@@ -98,3 +99,4 @@ The project is organized according to chezmoi standards. Below is a directory tr
 │   └── bin/                   # Custom automation scripts
 ├── Terminal_img/              # Images and logos for terminal output
 └── Themes_wall/               # Wallpaper collection
+```
