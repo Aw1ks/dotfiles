@@ -31,7 +31,7 @@ Starting with Hyprland versions 0.55 and higher, it is recommended to update con
 ## 📸 Preview
 
 <p align="center">
-  <video src="./screenshots/preview_video.mp4" width="100%" controls autoplay muted loop>
+  <video src="./screenshots/preview_video.webm" width="100%" controls autoplay muted loop>
     Your browser does not support embedded video.
   </video>
   <br>
