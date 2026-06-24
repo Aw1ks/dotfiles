@@ -16,7 +16,7 @@ The table below lists the key components of the environment and the software use
 | Command shell | Fish | Interactive shell with convenient autocompletion and highlighting | [fishshell.com](https://fishshell.com) |
 | Text editor | Neovim + [LazyVim](https://www.lazyvim.org) | The main environment for text development and editing (Lua/Scheme) with configuration LazyVim | [neovim.io](https://neovim.io) |
 | Status panel | Waybar | Customizable dashboard for Wayland | [github.com/Alexays/Waybar](https://github.com/Alexays/Waybar) |
-| Launch interface | Wofi | A utility for launching applications and creating menus (menus/launcher) | [github.com/Cantara/wofi](https://github.com/Cantara/wofi) |
+| Launch interface | Wofi | A utility for launching applications and creating menus (menus/launcher) | [github.com/Cantara/wofi](https://github.com/SimplyCEO/wofi) |
 | Configuration management | [Chezmoi](https://chezmoi.io) | Dotfiles Management and Synchronization Manager | [chezmoi.io](https://chezmoi.io) |
 
 ---
