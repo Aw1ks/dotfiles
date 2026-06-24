@@ -1,0 +1,208 @@
+@import "global_colors.css";
+
+*{
+    font-family: JetBrainsMono;
+    font-size: 16px;
+    min-height: 0;
+    color: @light_color;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/*
+---------------
+    ARROWS
+---------------
+*/
+
+#custom-arrow-right-decor1,
+#custom-arrow-right-decor2,
+
+#custom-arrow-left-decor1,
+#custom-arrow-left-decor2,
+#custom-arrow-left-decor3,
+
+#custom-limiter-center-decor1,
+#custom-limiter-center-decor2,
+#custom-limiter-center-decor3,
+#custom-limiter-center-decor4 {
+    font-size: 24px;
+}
+
+/*
+------------
+   GROUPS
+------------
+*/
+
+#clock_lang,
+#cpu_memory {
+    background: @muted_color;
+}
+
+/* 
+-------------
+    LEFT
+-------------
+*/
+
+/* ------ WORKSPACES ------ */
+#workspaces {
+    background: @dark_color;
+    padding: 1px 5px 6px 5px;
+}
+
+#workspaces button{
+    margin-right: 10px;
+    padding: 1px 10px;
+    border-radius: 1px;
+    transition: border-bottom 1.2s;
+}
+
+#workspaces button.active, #workspaces button.focused{
+    padding: 0 22px;  
+    background: @mid_color;
+    border-radius: 25px;
+}
+
+#workspaces button:hover {
+    border-bottom: 2px solid #7f8fa7;
+}
+
+#custom-arrow-right-decor1 {
+    border-left: 10px solid @dark_color;
+    margin-left: -6px;
+    color: @dark_color;
+    padding-right: 10px;
+    background: @muted_color;
+    text-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* ------ WINDOW ------ */
+#window {
+    background: @muted_color;
+    padding-right: 10px;
+}
+
+#custom-arrow-right-decor2 {
+    color: @muted_color;
+    text-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);
+    padding-right: 20px;
+}
+
+/*
+---------------
+    CENTER 
+---------------
+*/
+
+/* ------ TRAY ------ */
+#tray {
+    padding: 0 10px 0 15px;
+    background: @mid_color;
+    border-radius: 0 0 0 20px;
+}
+
+/* ------ LANGUAGE ------ */
+#language {
+    padding: 0 10px 0 10px;
+}
+
+/* ------ CLOCK ------ */
+#clock {
+    padding: 0 10px 0 10px;
+}
+
+/* ------ ARCH LOGO ------ */
+#custom-limiter-center-decor1,
+#custom-limiter-center-decor2 {
+    color: @dark_color;
+    background: @muted_color;
+}
+
+#custom-limiter-center-decor3,
+#custom-limiter-center-decor4 {
+    color: @muted_color;
+    background: @mid_color;
+}
+
+#custom-arch {
+    padding: 0 20px 0 15px;
+    font-size: 25px;
+    transition: color .5s;
+    background: @dark_color;
+}
+
+#custom-arch:hover {
+    color: #1793d1;
+}
+
+/* ------ CPU ------ */
+#cpu {
+    padding: 0 15px 0 10px;
+}
+
+/* ------ MEMORY ------ */
+#memory {
+    padding: 0 10px 0 10px;
+}
+
+/* ------ TEMPERATURE ------ */
+#temperature {
+    padding: 0 15px 0 10px;
+    background: @mid_color;
+    border-radius: 0 0 20px 0;
+}
+
+/*
+--------------
+    RIGHT 
+--------------
+*/
+
+#custom-arrow-left-decor1,
+#custom-arrow-left-decor2,
+#custom-arrow-left-decor3 {
+    text-shadow: -2px 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#custom-arrow-left-decor3 {
+    padding-left: 5px;
+}
+
+/* ------ BATTERY ------ */
+#battery {
+    background: @dark_color;
+    padding: 1px 10px 3px 5px;
+}
+
+#custom-arrow-left-decor1 {
+    border-right: 10px solid @dark_color;
+    margin-right: -6px;
+    color: @dark_color;
+    padding-left: 10px;
+    background: @muted_color;
+}
+
+/* ------ PULSEAUDIO ------ */
+#pulseaudio {
+    background: @muted_color;
+}
+
+#custom-arrow-left-decor2 {
+    color: @muted_color;
+    background: @mid_color;
+    padding-left: 10px;
+}
+
+/* ------ NETWORK ------ */
+#network {
+    background: @mid_color;
+}
+
+#custom-arrow-left-decor3 {
+    color: @mid_color;
+    margin-right: 1px;
+}

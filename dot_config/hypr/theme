@@ -1,0 +1,6 @@
+$wallpaper_path = /home/diefals/Wallpapers/blue.jpg
+$lock_color_1 = 31487a
+$lock_color_2 = c0cffa
+
+$active_border = 0xff8fb3e2
+$inactive_border = 0xff192338

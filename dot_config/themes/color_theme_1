@@ -1,0 +1,54 @@
+# -- GREEN -- 
+
+# MAIN
+DARK_COLOR="0f2421"
+MUTED_COLOR="19363d"
+MID_COLOR="005b5b"
+VIDRANT_COLOR="6eb47d"
+LIGHT_COLOR="ffffc1"
+
+# CAVA
+CAVA_GR_1="444b6e"
+CAVA_GR_2="708b75"
+CAVA_GR_3="9ab87a"
+CAVA_GR_4="daff7d"
+CAVA_GR_5="f8f991"
+
+# TERMINAL
+TERM_BG="1c1f2e"
+TERM_FG="ffffc1"
+# Black
+TERM_COLOR_0="0b1215"
+TERM_COLOR_8="0e0e10"
+# Red
+TERM_COLOR_1="dc0000"
+TERM_COLOR_9="ff0000"
+#Green
+TERM_COLOR_2="058e3f"
+TERM_COLOR_10="04773b"
+# Yellow
+TERM_COLOR_3="febe11"
+TERM_COLOR_11="ffd544"
+# Blue
+TERM_COLOR_4="023e8a"
+TERM_COLOR_12="0077b6"
+# Magneta
+TERM_COLOR_5="fe5cb0"
+TERM_COLOR_13="fe87c3"
+# Cyan
+TERM_COLOR_6="00bcd4"
+TERM_COLOR_14="4dd0e1"
+# White
+TERM_COLOR_7="ffffc1"
+TERM_COLOR_15="ffffff"
+# Cursor
+CURSOR_COLOR="ffffc1"
+CURSOR_TEXT_COLOR="af2529"
+# Url
+URL_COLOR="1e97f3"
+# Bg opacity
+BG_OPACITY=0.3
+
+# IMG
+WALLPAPER="$HOME/Themes_wall/green.webp"
+FISH_PHOTO="$HOME/Terminal_img/green.png"

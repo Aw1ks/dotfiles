@@ -1,0 +1,93 @@
+@define-color wofi_dark_color #192338;
+@define-color wofi_light_color #c0cffa;
+@define-color wofi_vidrant_color #8fb3e2;
+
+
+window {
+  background-color: #191a1a;
+  background-image: linear-gradient(0deg, transparent 24%, rgba(114, 114, 114, 0.5) 25%, rgba(114, 114, 114, 0.5) 26%, transparent 27%,transparent 74%, rgba(114, 114, 114, 0.5) 75%, rgba(114, 114, 114, 0.5) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, rgba(114, 114, 114, 0.5) 25%, rgba(114, 114, 114, 0.5) 26%, transparent 27%,transparent 74%, rgba(114, 114, 114, 0.5) 75%, rgba(114, 114, 114, 0.5) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+* {
+  font-family: "Jetbrains Mono";
+  font-weight: bold;
+  font-size:large;
+  color: @wofi_light_color;
+}
+
+#scroll {
+  padding: 0.5rem 0; 
+}
+
+#input {
+  background-color: transparent;
+  color: @wofi_light_color;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  font-size: 1rem;
+  padding: 0.5rem 1rem; 
+  
+  transition: font-size 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+#input:focus {
+  font-size: 1.5rem; 
+  padding: 1.2rem 1rem;
+  color: @wofi_vidrant_color;
+}
+
+#input:focus image {
+  color: @wofi_vidrant_color;
+}
+
+#input image:first-child {
+  -gtk-icon-transform: scale(1) rotate(0deg);
+  transition: -gtk-icon-transform 0.3s ease-in-out;
+}
+
+#input:focus image:first-child {
+  -gtk-icon-transform: scale(1.3) rotate(35deg);
+}
+
+#input image:last-child {
+  -gtk-icon-transform: scale(1);
+  transition: -gtk-icon-transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#input:focus image:last-child {
+  -gtk-icon-transform: scale(1.3);
+}
+
+#inner-box {
+  margin: 0; 
+  font-size: 1rem;
+}
+
+#img {
+  margin: 10px 10px;
+}
+
+#entry {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0.2rem 0;
+  background-image: linear-gradient(110deg, transparent 33%, @wofi_vidrant_color 33%, @wofi_vidrant_color 66%, transparent 66%);
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  background-position: 100% center;
+  transition: background-position 0.3s ease-in-out, padding-left 0.3s ease-in-out;
+}
+
+#entry:selected {
+  background-position: 70% center;
+  padding-left: 2rem;
+  outline: none;
+}
+
+#text:selected {
+  color: @wofi_dark_color;
+}

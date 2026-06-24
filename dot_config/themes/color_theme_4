@@ -1,0 +1,54 @@
+# -- BLUE --
+
+# MAIN
+DARK_COLOR="192338"
+MUTED_COLOR="1e2e4f"
+MID_COLOR="31487a"
+VIDRANT_COLOR="8fb3e2"
+LIGHT_COLOR="c0cffa"
+
+# CAVA
+CAVA_GR_1="212c58"
+CAVA_GR_2="334173"
+CAVA_GR_3="48578e"
+CAVA_GR_4="7d8ec4"
+CAVA_GR_5="c0cffa"
+
+# TERMINAL
+TERM_BG="192338"
+TERM_FG="c0cffa"
+# Black
+TERM_COLOR_0="0b1215"
+TERM_COLOR_8="0e0e10"
+# Red
+TERM_COLOR_1="dc0000"
+TERM_COLOR_9="ff0000"
+#Green
+TERM_COLOR_2="9bf019"
+TERM_COLOR_10="d2ff28"
+# Yellow
+TERM_COLOR_3="febe11"
+TERM_COLOR_11="ffd544"
+# Blue
+TERM_COLOR_4="77f7f0"
+TERM_COLOR_12="0077b6"
+# Magneta
+TERM_COLOR_5="fe5cb0"
+TERM_COLOR_13="fe87c3"
+# Cyan
+TERM_COLOR_6="00bcd4"
+TERM_COLOR_14="4dd0e1"
+# White
+TERM_COLOR_7="c0cffa"
+TERM_COLOR_15="ffffff"
+# Cursor
+CURSOR_COLOR="c0cffa"
+CURSOR_TEXT_COLOR="af2529"
+# Url
+URL_COLOR="a0e0c8"
+# Bg opacity
+BG_OPACITY=0.2
+
+# IMG
+WALLPAPER="$HOME/Themes_wall/blue.jpg"
+FISH_PHOTO="$HOME/Terminal_img/blue.png"
