@@ -30,15 +30,6 @@ Starting with Hyprland versions 0.55 and higher, it is recommended to update con
 
 ## 📸 Preview
 
-<p align="center">
-  <video src="./screenshots/preview_video.webm" width="100%" controls autoplay muted loop>
-    Your browser does not support embedded video.
-  </video>
-  <br>
-  <i>A short video demonstration of animations and visual components</i>
-</p>
-
-### 🎨 Custom themes
 The build includes four pre-built color profiles. Switching between them adapts the entire system's color gamut.
 
 | **Theme: Blue** | **Theme: Green** |
